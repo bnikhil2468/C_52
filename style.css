@@ -1,0 +1,85 @@
+
+h1{
+    color:rgb(255, 124, 124);
+    font-family: "Andale Mono", monospace, serif;
+    font-weight: "bold";
+    text-align:"center";
+
+    
+}
+
+h2{
+    color:cornflowerblue;
+    background-color:rgba(255, 128, 0, 0.581);
+    font-family: "Andale Mono", monospace, serif;
+    font-weight: bold;
+    text-align:center;
+}
+
+.menu{
+   margin-right: 30px;
+}
+
+.menu a{
+margin-left:20px;
+}
+
+a{
+    color: rgb(255, 153, 0);
+    font-family: "Andale Mono", monospace, serif;
+    font-weight: bold;
+}
+
+p{
+    color:rgb(118, 199, 118);
+    font-family: "Andale Mono", monospace, serif;
+    font-weight: bold;
+}
+.header{
+    display:flex;
+    background-color: #3d3d85;
+    justify-content:space-between ;
+}
+.site_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.footer{
+    display:flex;
+    justify-content:center;
+    padding: 3in;
+    
+}
+body{
+    background-color: #ffdf29aa;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+position: absolute;
+top:45%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity:0;
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:0.3
+}
